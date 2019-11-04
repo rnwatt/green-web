@@ -1,0 +1,44 @@
+header img{
+  max-width: 100%;
+  height: auto;
+
+}
+.carousel-item img {
+  width: 700px;
+  height: 300px;
+
+}
+.carousel-item img:hover{
+  opacity: 0.6;
+}
+
+
+.main-picture{
+	position: relative;
+	background-image: url(homepage1.jpg);
+	height: 350px;
+	width:100%;
+  opacity: 0.86;
+}
+.textblock{
+
+	position: absolute;
+	bottom: -50px;
+	left: 250px;
+	width: 700px;
+	height: 300px;
+	background-color: transparent;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#intro {
+  text-align:justify;
+}
+
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+  font-size: 12px;
+}
