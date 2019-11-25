@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="web.css">
+
+    <title>Home Page</title>
+    </head>
+
+    <body>
+      <!--Forcing the whole content to have a centred display-->
+      <div class="container-fluid">
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav text -center">
+              <li class="nav-item active">
+                <a class="nav-link" href="frontPage.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Carbon FootPrint</a>
+              </li>
+              <li class="nav-item dropdown"><i class="fas fa-recycle"></i>
+                <a class="nav-link dropdown-toggle" href="wasteManagement.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Waste Management
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="wasteManagement.html#tips">Tips on Recycling and Saving</a>
+                  <a class="dropdown-item" href="wasteManagement.html#map">Map</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><i class="fas fa-recycle"></i>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Food
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Tips</a>
+                  <a class="dropdown-item" href="#">Map</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><i class="fas fa-recycle"></i>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Lifestyles Choices
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Veganism</a>
+                  <a class="dropdown-item" href="#">Minimalism</a>
+                  <a class="dropdown-item" href="#">Zero-Waste</a>
+                  <a class="dropdown-item" href="#">Others</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+      <header>
+      <div class="main-picture">
+        <div class="container textblock">
+          <div class="typewriter">
+            <h1 class="display-4 heading text-body" pt-10>How to stay eco-friendly </h1>
+            <h1 class="display-4 heading text-body">on a daily basis?</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Placing the contnt in the middle-->
+    <div class="container">
+      <main>
+        <div class="row justify-content-center">
+          <div class="col-sm-7 mt-4 ">
+            <p id="intro">We are bombarded with reports and news stories about pollution, wildlife declines, climate change and other environmental concerns. But as individuals we can often feel daunted and helpless about what we can do. However, with
+              small changes, everyone (if they want to) can do their bit in small but meaningful ways and often save money.</p>
+          </div>
+        </div>
+      </main>
+
+      <div class="row justify-content-center">
+        <div class="col-sm-7 mt-4 mb-3">
+          <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <a href="#"><img class="d-block " src="Images/footprint.png" alt="First slide"></a>
+                <div class="carousel-caption d-none d-md-block black">
+                  <h5 class="text-dark " id="slideOne"> Carbon Footprint Calculator</h5>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <a href="wasteManagement.html"><img class="d-block" src="Images/waste.jpg" alt="Second slide"></a>
+                <div class="carousel-caption d-none d-md-block black">
+                  <h5 class="text-light" id="slideTwo">Dispose in a eco-friendly manner and Save resources</h5>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <a href="#"><img class="d-block" src="Images/f.jpg" alt="Third slide"></a>
+                <div class="carousel-caption d-none d-md-block black">
+                  <h5 class="text-light" id="slideThree">Try to grow it at home</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img class="d-block" src="Images/food.jpg" alt="Fourth slide"></a>
+                <div class="carousel-caption d-none d-md-block black">
+                  <h5 class="text-dark " id="slideFour">Changing the way of living</h5>
+                </div>
+              </div>
+              <div class="carouselButton">
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button " data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <footer  class="bg-light "><p>Text taken from <a href=" https://www.countryfile.com/how-to/how-to-live-a-greener-life/"> Country File </a></p></footer>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
