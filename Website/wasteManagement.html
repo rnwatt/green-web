@@ -14,8 +14,7 @@
   </head>
   <body>
 
-    <!--Forcing the whole content to have a centred display-->
-    <div class="container-fluid">
+
       <!-- Navigation bar -->
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -24,7 +23,7 @@
                   <a class="nav-link" href="frontPage.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Carbon FootPrint</a>
+                  <a class="nav-link" href="quiz.html">Carbon FootPrint</a>
                 </li>
                 <li class="nav-item dropdown"><i class="fas fa-recycle"></i>
                   <a class="nav-link dropdown-toggle" href="wasteManagement.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -58,13 +57,14 @@
               </ul>
             </div>
           </nav>
-
+      <!--Forcing the whole content to have a centred display-->
+      <div class="container-fluid">
       <header>
-          <div class="main-picture">
+          <div class="main-picture img-fluid">
             <!--Placing the content in a centre-->
             <div class="container textblock">
               <!--A div for implementing a typing effect-->
-              <div class="typewriter">
+              <div class="typewriter ">
                 <h1 class="display-4 heading text-body" pt-7 mb-6> Waste Management and </h1>
                 <h1 class="display-4 heading text-body" pt-8> Saving Resources </h1>
               </div>
@@ -117,16 +117,15 @@
         </div>
 
       <!-- Inserting a map -->
-      <div id='map'></div>
-      <nav id='filter-group' class='filter-group'></nav>
-      <br>
-      <br>
-      <br>
-
+      <div class="map_box container">
+      <div id='map' class="img-fluid"></div>
+      <nav id='filter-group' class='filter-group '></nav>
+    </div>
+  </div>
       <footer class="bg-light">
       <p>Text was taken from <a href=" http://www.globalstewards.org/ecotips.htm"> Global Stewards </a></p>
       </footer>
-      </div>
+
 
       <script type="text/javascript" src="jsFile.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
