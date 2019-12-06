@@ -24,6 +24,12 @@ body{
    opacity: 0.7;
 	 display: flex;
  	flex-wrap: wrap;
+	max-width: 100%;
+
+}
+.containter{
+	position: relative;
+	text-align:justify;
 }
 /*Heading text*/
 .textblock{
