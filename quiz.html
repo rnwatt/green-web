@@ -3,10 +3,69 @@
 <head>
 <title>Carbon Footprint</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="web.css">
 </head>
 <body>
+ <!--Forcing the whole content to have a centred display-->
+      <div class="container-fluid">
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav text -center">
+              <li class="nav-item active">
+                <a class="nav-link" href="frontPage.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Carbon FootPrint</a>
+              </li>
+              <li class="nav-item dropdown"><i class="fas fa-recycle"></i>
+                <a class="nav-link dropdown-toggle" href="wasteManagement.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Waste Management
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="wasteManagement.html#tips">Tips on Recycling and Saving</a>
+                  <a class="dropdown-item" href="wasteManagement.html#map">Map</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><i class="fas fa-recycle"></i>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Food
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Tips</a>
+                  <a class="dropdown-item" href="#">Map</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><i class="fas fa-recycle"></i>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Lifestyles Choices
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Veganism</a>
+                  <a class="dropdown-item" href="#">Minimalism</a>
+                  <a class="dropdown-item" href="#">Zero-Waste</a>
+                  <a class="dropdown-item" href="#">Others</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+ 
+  
 <div id="main">
-<div id="header"><h1>How green are you?</h1></div>
+<header>
+      <div class="main-picture">
+        <div class="container textblock">
+          <div class="typewriter">
+            <h1 class="display-4 heading text-body" pt-10>How green </h1>
+            <h1 class="display-4 heading text-body">.     are you?</h1>
+          </div>
+        </div>
+      </div>
+    </header>
 
 <form  id="form1">
 <p>How long are your travels by car every week?</p>
