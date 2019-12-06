@@ -9,7 +9,7 @@
 
 }
 
-.containter{
+.container{
 	position: relative;
 	text-align:justify;
 }
@@ -55,7 +55,7 @@
  left: -40px;
 }
 
-/* Introduction paragraphar in the HomePage*/
+/* Introduction paragraph in the HomePage*/
 #intro {
   text-align:justify;
 }
