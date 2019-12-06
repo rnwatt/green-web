@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700,700i&display=swap');
 
-main{
-	display: flex;
-	flex-wrap: wrap;
-}
-
-header{
-	display: flex;
-	flex-wrap: wrap;
-}
-
-body{
-	display: flex;
-	flex-wrap: wrap;
-}
 
 /* Main picture*/
 .main-picture{
@@ -21,8 +7,6 @@ body{
   position: relative;
   height: 350px;
    opacity: 0.7;
-	 display: flex;
- 	flex-wrap: wrap;
 	 max-width: 100%;
 }
 
